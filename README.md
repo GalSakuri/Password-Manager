@@ -9,7 +9,8 @@ A simple password manager built with **Python** and **Tkinter** that lets you:
 - Generate passwords with random letters, symbols, and numbers.
 - Auto-copy generated passwords to clipboard.
 - Input validation to prevent saving blank fields.
-- Save website, email, and password to `password.txt`.
+- Save website, email, and password entries to a local `data.json` file using JSON format.
+- Search for a website and retrieve saved credentials.
 - **Use a default email address** to avoid retyping it every time (optional feature # ).
 - Responsive layout with a centered logo.
 - Built as a desktop app (can be compiled to `.exe`).
@@ -22,6 +23,7 @@ A simple password manager built with **Python** and **Tkinter** that lets you:
 - Tkinter (GUI)
 - `pyperclip` (clipboard copy)
 - `random` (built-in library)
+- `json` for structured local storage
 
 ---
 
